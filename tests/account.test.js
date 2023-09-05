@@ -60,6 +60,7 @@ describe('Account deposit method', () => {
     });
 });
 
+
 describe('Account withdrawal method', () => {
     test('Balance starts at 200, and when withdrawal() with 100 is called, balance should be 100', () => {
         // Create a new account
@@ -70,7 +71,6 @@ describe('Account withdrawal method', () => {
         // Testing the properties
         expect(account.balance).toEqual(100);
     });
-
 
     test('Balance starts at 200, and when withdrawal() with 100 is called, adds a transaction object to this.transactions array', () => {
         // Create a new account
@@ -108,5 +108,6 @@ describe('Account withdrawal method', () => {
             expect(account.transactions).toEqual([]);
         }
     });
+    
 
 });
