@@ -9,7 +9,7 @@ class Account {
     }
 
     deposit(amount, date) {
-        if (amount >= 0) {
+        if (amount > 0) {
             this.balance += amount;
             const transaction = new Transaction('Deposit', amount, date, this.balance)
             this.transactions.push(transaction)

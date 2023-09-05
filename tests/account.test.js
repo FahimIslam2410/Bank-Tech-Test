@@ -124,14 +124,14 @@ describe("Account printStatment()", () => {
 		test("When given one deposit() and one withdrawal() it returns the transaction print in the correct format", () => {
 			// Create a new account
 			const account = new Account();
-			account.deposit(100, "05/09/2023");
+			account.deposit(200, "05/09/2023");
 			account.withdrawal(50, "06/09/2023");
 			
 			// Testing the properties
 			expect(account.printStatement()).toEqual(
 				"date || credit || debit || balance\n" +
-				"05/09/2023 || || 100.00 || 100.00\n" +
-				"06/09/2023 || 50.00 || || 50.00"
+				"05/09/2023 || || 200.00 || 200.00\n" +
+				"06/09/2023 || 50.00 || || 150.00"
 			);
 		
 	});
