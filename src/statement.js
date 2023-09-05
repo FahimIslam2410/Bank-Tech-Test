@@ -6,15 +6,11 @@ class Statement {
     print() {
         let statement = 'date || credit || debit || balance\n';
 
-        let runningBalance = 0;
-
         this.transaction.forEach(transaction => {
             if (transaction.type === 'Deposit') {
-                runningBalance += transaction.amount;
-                statement += `${transaction.date} || || ${transaction.amount.toFixed(2)} || ${runningBalance.toFixed(2)}\n`;
+                statement += `${transaction.date} || || ${transaction.amount.toFixed(2)} || ${transaction.balance.toFixed(2)}\n`;
             } else {
-                runningBalance -= transaction.amount;
-                statement += `${transaction.date} || ${transaction.amount.toFixed(2)} || || ${runningBalance.toFixed(2)}\n`;
+                statement += `${transaction.date} || ${transaction.amount.toFixed(2)} || || ${transaction.balance.toFixed(2)}\n`;
             }
         });
 
