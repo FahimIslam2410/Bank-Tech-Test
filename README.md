@@ -1,4 +1,4 @@
-# The Issue
+# The Problem
 
 * You should be able to interact with your code via a REPL like IRB or Node.  (You don't need to implement a command line interface that takes input from STDIN.)
 * Deposits, withdrawal.
@@ -34,6 +34,11 @@ I then organised the bullets into 3 components/classes. Account, Transaction and
 classes and what methods they would have.
 
 ****** ENTER PIC OF DIAGRAM ******
+
+I have added a couple of ease of life things:
+* When depositing money it returns a message
+* When withdrawing money it returns a message
+* Instead of a user inputting a date it happens automatically
 
 
 # Prerequisites/Environment Setup
