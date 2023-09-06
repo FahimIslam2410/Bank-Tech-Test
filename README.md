@@ -38,8 +38,8 @@ I structured it this way because of three reasons:
 
 
 
+<img width="703" alt="Screenshot 2023-09-05 at 17 11 04" src="https://github.com/FahimIslam2410/Bank-Tech-Test/assets/120402745/83f01ab6-f174-4f99-b6fc-0f773b85b81f">
 
-![bankTechTestDiagram](https://github.com/FahimIslam2410/Bank-Tech-Test/assets/120402745/eede950a-cad1-4e88-9188-d3b32a4f8541)
 
 
 
