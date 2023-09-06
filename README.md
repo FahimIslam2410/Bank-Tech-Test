@@ -68,4 +68,5 @@ In the main directory (/BANK)
 
 ### This is the program running in the node terminal
 
-<img width="715" alt="Screenshot 2023-09-06 at 11 40 06" src="https://github.com/FahimIslam2410/Bank-Tech-Test/assets/120402745/83306eca-20e2-4eec-9810-3ba78d83398a">
+<img width="715" alt="Screenshot 2023-09-06 at 11 40 06" src="https://github.com/FahimIslam2410/Bank-Tech-Test/assets/120402745/e4bd03c0-0af4-4ec4-93a4-1088fb73717c">
+
