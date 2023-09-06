@@ -22,7 +22,7 @@ class Account {
         }
     }
 
-    withdrawal(amount) {
+    withdraw(amount) {
         const date = getDate()
         if (this.balance >= amount) {
             this.balance -= amount;

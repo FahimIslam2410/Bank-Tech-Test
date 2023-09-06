@@ -27,9 +27,7 @@ I broke down the issue in bullet points.
 * Storing the statements
 * Automatically creating a date ~~(This is an extra step if there is time)~~
 
-
-I then organised the bullets into 3 components/classes. Account, Transaction and Statement class. Using excalidraw I diagramed out the
-classes and what methods they would have.
+I organized the components/classes into three classes: Account, Transaction, and Statement. I diagrammed these classes along with the methods they would have using Excalidraw."
 
 
 
@@ -43,8 +41,8 @@ classes and what methods they would have.
 
 
 ### I have also added a couple of ease of life things when use node repl:
-* When depositing money it returns a simple deposit message
-* When withdrawing money it returns a simple withdrawal message
+* When depositing money it returns a simple deposit message in the terminal
+* When withdrawing money it returns a simple withdrawal message in the terminal
 * Instead of a user inputting a date it happens automatically
 
 
@@ -59,5 +57,5 @@ In the main directory (/BANK)
 * npm install --save-dev eslint prettier
 
 
-To run the test suite use the following command:
+### To run the test suite use the following command:
 * npx jest
