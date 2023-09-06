@@ -27,7 +27,12 @@ I broke down the issue in bullet points.
 * Storing the statements
 * Automatically creating a date ~~(This is an extra step if there is time)~~
 
-I organized the components/classes into three classes: Account, Transaction, and Statement. I diagrammed these classes along with the methods they would have using Excalidraw."
+I organized the components/classes into three classes: Account, Transaction, and Statement. I diagrammed these classes along with the methods they would have using Excalidraw.
+
+I structured it this way because of three reasons:
+* Easy to read
+* Easy to test
+* Modular
 
 
 
@@ -59,3 +64,8 @@ In the main directory (/BANK)
 
 ### To run the test suite use the following command:
 * npx jest
+
+
+### This is the program running in the node terminal
+
+<img width="715" alt="Screenshot 2023-09-06 at 11 40 06" src="https://github.com/FahimIslam2410/Bank-Tech-Test/assets/120402745/83306eca-20e2-4eec-9810-3ba78d83398a">
