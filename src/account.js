@@ -1,5 +1,7 @@
 const Transaction = require('./transaction')
 const Statement = require('./statement')
+const getDate = require('./date')
+
 
 
 class Account {
@@ -8,7 +10,8 @@ class Account {
         this.transactions = []
     }
 
-    deposit(amount, date) {
+    deposit(amount) {
+        const date = getDate()
         if (amount > 0) {
             this.balance += amount;
             const transaction = new Transaction('Deposit', amount, date, this.balance)
@@ -19,7 +22,8 @@ class Account {
         }
     }
 
-    withdrawal(amount, date) {
+    withdrawal(amount) {
+        const date = getDate()
         if (this.balance >= amount) {
             this.balance -= amount;
             const transaction = new Transaction('Withdrawal', amount, date, this.balance)
@@ -34,6 +38,8 @@ class Account {
         const statement = new Statement(this.transactions)
         return statement.print();
     }
+
+
 }
   
 module.exports = Account;
