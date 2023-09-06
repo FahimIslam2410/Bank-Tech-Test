@@ -39,7 +39,6 @@ class Account {
         return statement.print();
     }
 
-
 }
   
 module.exports = Account;
